@@ -20,5 +20,4 @@ RUN wget https://s3.us-east-2.amazonaws.com/cecl-ignite/ignite-2.3.0.zip
 RUN unzip ignite-2.3.0.zip
 RUN chmod +x /data/ignite-2.3.0/bin/ignite.sh
 ENTRYPOINT ["/data/ignite-2.3.0/bin/ignite.sh","/data/ignite-2.3.0/config/loss-amount-config.xml", "-v"]
-
 EXPOSE 11211 47100 47500 49112
