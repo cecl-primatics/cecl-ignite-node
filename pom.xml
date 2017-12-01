@@ -34,7 +34,7 @@
                         <configuration>
                             <images>
                                 <image>
-                                    <name>primaticsfinancial2017/cecl-ignite</name>
+                                    <name>primaticsfinancial2017/cecl-ignite-node</name>
                                     <alias>${docker.container.name}</alias>
                                     <!-- Configure build settings -->
                                     <build>
